@@ -1,0 +1,42 @@
+def learn():
+    print("Learn to code python with this interactive tutorial!")
+    print("======================TUTORIAL1=====================")
+    print("In this tutorial, you will learn how to do basic math in python.")
+    print("First, type in the value of a and b.")
+    a = int(input("a = "))
+    b = int(input("b = "))
+    print("Now, to multiply a and b, type in this: a * b")
+    while True:
+    something = input("")
+        if something == "a * b" or "a*b":
+            print(a * b)
+            print("Did you see how that worked?  It returned a value!")
+            break
+        else:
+            print("Try again.  Remember, type this: a * b.")
+    print("Now, you don't always want to just do that.  Try a loop like this:
+    n = 0
+    while n < a:
+        print(n)
+        n += 1"
+    print("Remember the indent of 4 spaces.  It shows python that that is a loop.")
+    while not something == "n = 0
+    while n < a:
+    print(n)
+    n += 1":
+        something = input("")
+        if not something == "n = 0
+    while n < a:
+    print(n)
+    n += 1":
+            print("Remember, type in this:
+            n = 0
+            while n < a:
+            print(n)
+            n += 1")
+    n = 0
+    while n < a
+    print(n)
+    n +=1
+        
+    
