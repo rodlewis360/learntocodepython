@@ -14,29 +14,27 @@ def learn():
             break
         else:
             print("Try again.  Remember, type this: a * b.")
-    print("Now, you don't always want to just do that.  Try a loop like this:
-    n = 0
-    while n < a:
-        print(n)
-        n += 1"
-    print("Remember the indent of 4 spaces.  It shows python that that is a loop.")
-    while not something == "n = 0
-    while n < a:
-    print(n)
-    n += 1":
-        something = input("")
-        if not something == "n = 0
-    while n < a:
-    print(n)
-    n += 1":
-            print("Remember, type in this:
+    print("You did it!  But you can't just use equations.  You need to use loops.  Try this:")
+    print("n = 0")
+    print("a = 10")
+    print("while n < a:")
+    print("    print(n)")
+    print("    n += 1")
+    while True:
+        print("Remember, the indent is four spaces and won't work otherwise.")
+        something = []
+        something.append(input("1 "))
+        something.append(input("2 "))
+        something.append(input("3 "))
+        something.append(input("4 "))
+        something.append(input("5 "))
+        str(something)
+        if something[1] == "n = 0" and something[2] == "a = 10" and something[3] == "while n < a:" and something[4] == "    print(n)" and something[5] == "n += 1":
             n = 0
+            a = 10
             while n < a:
-            print(n)
-            n += 1")
-    n = 0
-    while n < a
-    print(n)
-    n +=1
-        
+                print(n)
+                n += 1
+            print("You did it!  Nice job.  You passed tutorial 1.")
+            break
     
