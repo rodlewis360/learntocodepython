@@ -1,4 +1,5 @@
 def learn():
+    a = 0
     print("Learn to code python with this interactive tutorial!")
     print("======================TUTORIAL1=====================")
     print("In this tutorial, you will learn how to do basic math in python.")
