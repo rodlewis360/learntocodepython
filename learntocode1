@@ -14,7 +14,7 @@ def learn():
             break
         else:
             print("Try again.  Remember, type this: a * b.")
-    print("You did it!  But you can't just use equations.  You need to use loops.  Try this:")
+    print("You did it!  But you can't just use equations.  You need to use loops.  Try this, and type exactly what you see:")
     print("n = 0")
     print("a = 10")
     print("while n < a:")
