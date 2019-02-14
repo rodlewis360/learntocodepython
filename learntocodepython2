@@ -39,4 +39,6 @@ def learn():
         a = input("What number?")
         while n < a:
             print(n)
+            n += 1
+        print("done!")
     
